@@ -2,7 +2,7 @@ name: Build and Deploy static website app to azure
 on:
   push:
     branches:
-      - master
+      - main
 
 env:
   AZURE_WEBAPP_NAME: "azure-html-sample-project"    # set this to your application's name
